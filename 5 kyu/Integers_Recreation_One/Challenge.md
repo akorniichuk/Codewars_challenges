@@ -7,11 +7,12 @@ The result will be an array of arrays or of tuples (in C an array of Pair) or a 
 #Examples:
 
 list_squared(1, 250) --> [[1, 1], [42, 2500], [246, 84100]]
+
 list_squared(42, 250) --> [[42, 2500], [246, 84100]]
 
 
 The form of the examples may change according to the language, see Example Tests: for more details.
 
-Note
+Note:
 
 In Fortran - as in any other language - the returned string is not permitted to contain any redundant trailing whitespace: you can use dynamically allocated character strings.
